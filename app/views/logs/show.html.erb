@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>App:</strong>
+  <%= @log.app_id %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @log.email %>
+</p>
+
+<p>
+  <strong>Sign in type:</strong>
+  <%= @log.sign_in_type %>
+</p>
+
+<%= link_to 'Edit', edit_log_path(@log) %> |
+<%= link_to 'Back', logs_path %>
