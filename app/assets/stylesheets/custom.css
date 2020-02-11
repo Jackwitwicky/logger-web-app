@@ -1,0 +1,33 @@
+html,
+body {
+    padding-top: 0px !important;
+    height: 100vh;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+}
+
+.card {
+    border-radius: 8px !important;
+}
+
+.card .card-header {
+    background-color: #ffffff;
+}
+
+.card .card-header.card-header:first-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-outline {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #dadce0;
+}
